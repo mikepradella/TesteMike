@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [test]">
+  <test thread-count="5" name="chrome Test(failed)">
+    <classes>
+      <class name="runnerTeste.CriarApoliceCercRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runnerTeste.CriarApoliceCercRunner -->
+    </classes>
+  </test> <!-- chrome Test(failed) -->
+</suite> <!-- Failed suite [test] -->

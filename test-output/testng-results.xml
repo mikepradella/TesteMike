@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="test" duration-ms="35261" started-at="2018-10-09T14:46:04Z" finished-at="2018-10-09T14:46:39Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerTeste.CompraCompletaMyStoreComTestNgRunner@3159c4b8]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="chrome Test" duration-ms="35261" started-at="2018-10-09T14:46:04Z" finished-at="2018-10-09T14:46:39Z">
+      <class name="runnerTeste.CompraCompletaMyStoreComTestNgRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runnerTeste.CompraCompletaMyStoreComTestNgRunner@3159c4b8]" name="setUpClass" is-config="true" duration-ms="381" started-at="2018-10-09T14:46:04Z" finished-at="2018-10-09T14:46:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerTeste.CompraCompletaMyStoreComTestNgRunner@3159c4b8]" name="feature" duration-ms="34653" started-at="2018-10-09T14:46:04Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-10-09T14:46:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Compra completa My Store]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runnerTeste.CompraCompletaMyStoreComTestNgRunner@3159c4b8]" name="tearDownClass" is-config="true" duration-ms="95" started-at="2018-10-09T14:46:39Z" finished-at="2018-10-09T14:46:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runnerTeste.CompraCompletaMyStoreComTestNgRunner -->
+    </test> <!-- chrome Test -->
+  </suite> <!-- test -->
+</testng-results>

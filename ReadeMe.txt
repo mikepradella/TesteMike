@@ -1,0 +1,49 @@
+Reade-me
+Realizado um teste automatizado, utilizando selenium com Java, Junit, TestNg, Cucumber,Utilizando Page Factory. 
+Onde foi desenvolvido um teste fluxo completo de compra, cadastro, pagamento de um produto.
+Cenario:
+
+Funcionalidade: Compra completa My Store
+
+	Usuario podera adicionar compras ao carrinho e criar um usuario e fazer fluxo completo
+	para prosseguir com a compra de seus produtos.
+	
+	
+	pré-requesitos: Usuario precisa ter acesso a internet, um email valido ainda nao cadastro
+	no sitemas.
+
+@compraCompleta   
+Cenario: Realizar uma compra completa 
+	Dado que estou na pagina http://automationpractice.com/index.php
+	E seleciono o primeiro produto na lista	
+	Entao devera ser apresentado a tela produto adicionado no carrinho "Product successfully added to your shopping cart"
+	E clicar no botao Proceed to checkout
+	Entao devera ser apresentado produto adicionado ao carrinho
+	E clicar no botao verde Proceed to checkout
+	E Preencher "mike@teste.com" valido	
+	E clicar no botao Create an Account
+	E preencher todos os campos obrigatorios
+	E clicar no botao Register
+	Entao devera refletir endereço corretamente
+	E clicar no botao Proceed 
+	E clicar no Terms of service	
+	E clicar no botao Proceed too checkout
+	Entao o valor da compra devera ser o mesmo selecionado
+	E clicar em Pay by bank wire
+	E clicar no botao I confirm my order
+	Entao devera aparecer "Your order on My Store is complete."
+
+
+
+Configurações 
+1 ° Url   encontra-se no arquivo de Properties.
+2° Utilizado esta dependência para iniciar o Driver(webdrivermanager).
+3° As evidências ficam (TesteMike\target\evidencias)
+4° Utilizei a execução Tanto Com Junit e TestNg .
+5° Para executar possui 3 opções , executando (CompraCompletaMyStoreRunner ou TestSuiteTestRunner), ou pode executar XML TestNg.xml.
+
+DRIVER 	? Starting ChromeDriver 2.41.578737(ele executa nesta versão,pois utiliza a dependência WEBDRIVERMANAGER, ele da opção de tirar System.setProperty)
+
+Navegador  	? Versão 69.0.3497.100 (Versão oficial) 64 bits
+
+
